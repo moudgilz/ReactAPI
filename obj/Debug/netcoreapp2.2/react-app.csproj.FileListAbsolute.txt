@@ -1,0 +1,14 @@
+C:\projects\ReactJs\react-api\obj\Debug\netcoreapp2.2\react-app.csproj.CoreCompileInputs.cache
+C:\projects\ReactJs\react-api\obj\Debug\netcoreapp2.2\react-app.RazorAssemblyInfo.cache
+C:\projects\ReactJs\react-api\obj\Debug\netcoreapp2.2\react-app.RazorAssemblyInfo.cs
+C:\projects\ReactJs\react-api\obj\Debug\netcoreapp2.2\react-app.AssemblyInfoInputs.cache
+C:\projects\ReactJs\react-api\obj\Debug\netcoreapp2.2\react-app.AssemblyInfo.cs
+C:\projects\ReactJs\react-api\obj\Debug\netcoreapp2.2\react-app.RazorTargetAssemblyInfo.cache
+C:\projects\ReactJs\react-api\obj\Debug\netcoreapp2.2\react-app.dll
+C:\projects\ReactJs\react-api\obj\Debug\netcoreapp2.2\react-app.pdb
+C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.deps.json
+C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.runtimeconfig.json
+C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.runtimeconfig.dev.json
+C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.dll
+C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.pdb
+C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.xml
