@@ -12,8 +12,10 @@ namespace reactapp.Repository
     /// </summary>
     public partial class ReactAppContext
     {
-
-             
+        /// <summary>
+        /// Grocery
+        /// </summary>
+        public DbSet<Grocery> Grocery { get; set; }
 
     }
 }

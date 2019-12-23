@@ -39,10 +39,7 @@
 
   <ItemGroup>
     <Folder Include="Content\" />
-    <Folder Include="Migrations\" />
-    <Folder Include="Repository\Contracts\" />
     <Folder Include="Repository\SeedData\" />
-    <Folder Include="Repository\Services\" />
   </ItemGroup>
 
 </Project>

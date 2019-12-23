@@ -12,3 +12,4 @@ C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.runtimeconfig.de
 C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.dll
 C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.pdb
 C:\projects\ReactJs\react-api\bin\Debug\netcoreapp2.2\react-app.xml
+C:\projects\ReactJs\react-api\obj\Debug\netcoreapp2.2\react-app.csprojAssemblyReference.cache
