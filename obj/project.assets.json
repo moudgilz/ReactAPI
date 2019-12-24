@@ -13459,9 +13459,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\ReactJs\\react-api\\react-app.csproj",
-      "projectName": "react-app",
-      "projectPath": "C:\\projects\\ReactJs\\react-api\\react-app.csproj",
+      "projectUniqueName": "C:\\projects\\ReactJs\\react-api\\ReactApi.csproj",
+      "projectName": "ReactApi",
+      "projectPath": "C:\\projects\\ReactJs\\react-api\\ReactApi.csproj",
       "packagesPath": "C:\\Users\\ei11060\\.nuget\\packages\\",
       "outputPath": "C:\\projects\\ReactJs\\react-api\\obj\\",
       "projectStyle": "PackageReference",

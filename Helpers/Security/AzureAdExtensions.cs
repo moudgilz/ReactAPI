@@ -7,7 +7,7 @@ using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using static System.String;
 
-namespace reactapp.Helpers.Security
+namespace ReactApi.Helpers.Security
 {
     /// <summary>
     /// Azure Ad extension

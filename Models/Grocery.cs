@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace reactapp.Models
+namespace ReactApi.Models
 {
     /// <summary>
     /// Tag an item to make it searchable

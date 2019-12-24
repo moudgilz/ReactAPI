@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using reactapp.Helpers;
-using reactapp.Manager.Contract;
-using reactapp.ViewModels;
+using ReactApi.Helpers;
+using ReactApi.Manager.Contract;
+using ReactApi.ViewModels;
 
-namespace reactapp.Controllers
+namespace ReactApi.Controllers
 {
     /// <summary>
     /// common controller

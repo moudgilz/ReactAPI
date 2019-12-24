@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace reactapp.ViewModels
+namespace ReactApi.ViewModels
 {
     /// <summary>
     /// Tag veiw model an item to make it searchable

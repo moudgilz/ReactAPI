@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using reactapp.Enums;
-using reactapp.Models;
-using reactapp.Repository.Contracts;
+using ReactApi.Enums;
+using ReactApi.Models;
+using ReactApi.Repository.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace reactapp.Repository.Services
+namespace ReactApi.Repository.Services
 {
     /// <summary>   
     /// Tag repository

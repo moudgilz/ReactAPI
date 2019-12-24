@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
-using reactapp.Repository.SeedData;
+using ReactApi.Repository.SeedData;
 using Serilog;
 
-namespace reactapp.Repository
+namespace ReactApi.Repository
 {
     interface test
     {

@@ -1,191 +1,191 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>react-app</name>
+        <name>ReactApi</name>
     </assembly>
     <members>
-        <member name="T:reactapp.Controllers.CommonController">
+        <member name="T:ReactApi.Controllers.CommonController">
             <summary>
             common controller
             </summary>
         </member>
-        <member name="M:reactapp.Controllers.CommonController.#ctor(Microsoft.Extensions.Logging.ILogger{reactapp.Controllers.CommonController},reactapp.Manager.Contract.IGroceryService)">
+        <member name="M:ReactApi.Controllers.CommonController.#ctor(Microsoft.Extensions.Logging.ILogger{ReactApi.Controllers.CommonController},ReactApi.Manager.Contract.IGroceryService)">
             <summary>
             CommonController
             </summary>
             <param name="logger"></param>
             <param name="tagService"></param>    
         </member>
-        <member name="M:reactapp.Controllers.CommonController.GetGroceryList">
+        <member name="M:ReactApi.Controllers.CommonController.GetGroceryList">
             <summary>
             GET api/values
             </summary>
             <returns></returns>
         </member>
-        <member name="T:reactapp.DependencyInjection">
+        <member name="T:ReactApi.DependencyInjection">
             <summary>
             Class used to configure the repository classes
             </summary>
         </member>
-        <member name="T:reactapp.Enums.EntityStatus">
+        <member name="T:ReactApi.Enums.EntityStatus">
             <summary>
             Use in database to set status of records
             like general status, proposal, content, user invitation .
             </summary>
         </member>
-        <member name="F:reactapp.Enums.EntityStatus.Active">
+        <member name="F:ReactApi.Enums.EntityStatus.Active">
             <summary>
             records status
             </summary>
         </member>
-        <member name="F:reactapp.Enums.EntityStatus.Deleted">
+        <member name="F:ReactApi.Enums.EntityStatus.Deleted">
             <summary>
             Delete status
             </summary>
         </member>
-        <member name="F:reactapp.Enums.EntityStatus.InProgress">
+        <member name="F:ReactApi.Enums.EntityStatus.InProgress">
             <summary>
             proposal and content status
             </summary>
         </member>
-        <member name="F:reactapp.Enums.EntityStatus.Finished">
+        <member name="F:ReactApi.Enums.EntityStatus.Finished">
             <summary>
             Finish
             </summary>
         </member>
-        <member name="F:reactapp.Enums.EntityStatus.Accept">
+        <member name="F:ReactApi.Enums.EntityStatus.Accept">
             <summary>
             User Invitation status
             </summary>
         </member>
-        <member name="F:reactapp.Enums.EntityStatus.Deny">
+        <member name="F:ReactApi.Enums.EntityStatus.Deny">
             <summary>
             Deny
             </summary>
         </member>
-        <member name="T:reactapp.Enums.Status">
+        <member name="T:ReactApi.Enums.Status">
             <summary>
             Operation\Request status
             </summary>
         </member>
-        <member name="F:reactapp.Enums.Status.Fail">
+        <member name="F:ReactApi.Enums.Status.Fail">
             <summary>
             fail
             </summary>
         </member>
-        <member name="F:reactapp.Enums.Status.Success">
+        <member name="F:ReactApi.Enums.Status.Success">
             <summary>
             Sucess
             </summary>
         </member>
-        <member name="F:reactapp.Enums.Status.Error">
+        <member name="F:ReactApi.Enums.Status.Error">
             <summary>
             Error
             </summary>
         </member>
-        <member name="T:reactapp.Enums.Operation">
+        <member name="T:ReactApi.Enums.Operation">
             <summary>
             Operation\Request type
             </summary>
         </member>
-        <member name="F:reactapp.Enums.Operation.Create">
+        <member name="F:ReactApi.Enums.Operation.Create">
             <summary>
             Create
             </summary>
         </member>
-        <member name="F:reactapp.Enums.Operation.Read">
+        <member name="F:ReactApi.Enums.Operation.Read">
             <summary>
             Read
             </summary>
         </member>
-        <member name="F:reactapp.Enums.Operation.Update">
+        <member name="F:ReactApi.Enums.Operation.Update">
             <summary>
             Update
             </summary>
         </member>
-        <member name="F:reactapp.Enums.Operation.Delete">
+        <member name="F:ReactApi.Enums.Operation.Delete">
             <summary>
             Delete
             </summary>
         </member>
-        <member name="T:reactapp.Enums.MailType">
+        <member name="T:ReactApi.Enums.MailType">
             <summary>
             Type of mail to send
             </summary>
         </member>
-        <member name="F:reactapp.Enums.MailType.Proposal">
+        <member name="F:ReactApi.Enums.MailType.Proposal">
             <summary>
             TBD
             </summary>
         </member>
-        <member name="F:reactapp.Enums.MailType.Type2">
+        <member name="F:ReactApi.Enums.MailType.Type2">
             <summary>
             TBD
             </summary>
         </member>
-        <member name="T:reactapp.FilterTypes.PagingFilter">
+        <member name="T:ReactApi.FilterTypes.PagingFilter">
             <summary>
             BaseFilter setting
             </summary>
         </member>
-        <member name="P:reactapp.FilterTypes.PagingFilter.SortDirection">
+        <member name="P:ReactApi.FilterTypes.PagingFilter.SortDirection">
             <summary>
             SortDirection
             </summary>
         </member>
-        <member name="P:reactapp.FilterTypes.PagingFilter.Skip">
+        <member name="P:ReactApi.FilterTypes.PagingFilter.Skip">
             <summary>
             Skip
             </summary>
         </member>
-        <member name="P:reactapp.FilterTypes.PagingFilter.Take">
+        <member name="P:ReactApi.FilterTypes.PagingFilter.Take">
             <summary>
             Take
             </summary>
         </member>
-        <member name="P:reactapp.FilterTypes.PagingFilter.SearchContent">
+        <member name="P:ReactApi.FilterTypes.PagingFilter.SearchContent">
             <summary>
             SearchContent
             </summary>
         </member>
-        <member name="P:reactapp.FilterTypes.PagingFilter.Category">
+        <member name="P:ReactApi.FilterTypes.PagingFilter.Category">
             <summary>
             Selected category for searching
             </summary>
         </member>
-        <member name="T:reactapp.Helpers.AppHelper">
+        <member name="T:ReactApi.Helpers.AppHelper">
             <summary>
             Application helper methods
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.AppHelper.HostingEnvironment">
+        <member name="P:ReactApi.Helpers.AppHelper.HostingEnvironment">
             <summary>
             hosting env
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.AppHelper.Configuration">
+        <member name="P:ReactApi.Helpers.AppHelper.Configuration">
             <summary>
             Configuration
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.AppHelper.ServiceProvider">
+        <member name="P:ReactApi.Helpers.AppHelper.ServiceProvider">
             <summary>
             Service provider for geeting injected services
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.AppHelper.CurrentDate">
+        <member name="P:ReactApi.Helpers.AppHelper.CurrentDate">
             <summary>
             Current date time
             </summary>
         </member>
-        <member name="M:reactapp.Helpers.AppHelper.GetUserClaimDetails(System.Security.Claims.ClaimsIdentity)">
+        <member name="M:ReactApi.Helpers.AppHelper.GetUserClaimDetails(System.Security.Claims.ClaimsIdentity)">
             <summary>
             Get logged user claims
             </summary>
             <param name="identity"></param>
             <returns></returns>
         </member>
-        <member name="M:reactapp.Helpers.AppHelper.GetColumnValue(System.String,System.Object)">
+        <member name="M:ReactApi.Helpers.AppHelper.GetColumnValue(System.String,System.Object)">
             <summary>
             Gets the column value.
             </summary>
@@ -193,7 +193,7 @@
             <param name="entity">The entity.</param>
             <returns></returns>
         </member>
-        <member name="M:reactapp.Helpers.AppHelper.SetColumnValue(System.String,System.Object,System.Object)">
+        <member name="M:ReactApi.Helpers.AppHelper.SetColumnValue(System.String,System.Object,System.Object)">
             <summary>
             Sets the column value.
             </summary>
@@ -201,134 +201,134 @@
             <param name="entity">The entity.</param>
             <param name="value">The value.</param>
         </member>
-        <member name="M:reactapp.Helpers.AppHelper.MapAuditColumns(System.Object,System.Security.Claims.ClaimsIdentity)">
+        <member name="M:ReactApi.Helpers.AppHelper.MapAuditColumns(System.Object,System.Security.Claims.ClaimsIdentity)">
             <summary>
             Maps the audit columns.
             </summary>
             <param name="model">The model.</param>
             <param name="identity"></param>
         </member>
-        <member name="T:reactapp.Helpers.CommonErrorMessages">
+        <member name="T:ReactApi.Helpers.CommonErrorMessages">
             <summary>
             Common messages
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.CommonErrorMessages.UnknownError">
+        <member name="F:ReactApi.Helpers.CommonErrorMessages.UnknownError">
             <summary>
             UnknownError
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.CommonErrorMessages.BadRequest">
+        <member name="F:ReactApi.Helpers.CommonErrorMessages.BadRequest">
             <summary>
             BadRequest
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.CommonErrorMessages.NoResultFound">
+        <member name="F:ReactApi.Helpers.CommonErrorMessages.NoResultFound">
             <summary>
             NoResultFound
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.CommonErrorMessages.SomethingWentWrong">
+        <member name="F:ReactApi.Helpers.CommonErrorMessages.SomethingWentWrong">
             <summary>
             SomethingWentWrong
             </summary>
         </member>
-        <member name="T:reactapp.Helpers.Constants">
+        <member name="T:ReactApi.Helpers.Constants">
             <summary>
             Application constants
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.Constants.CreatedBy">
+        <member name="F:ReactApi.Helpers.Constants.CreatedBy">
             <summary>
             Added By Column
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.Constants.CreatedDate">
+        <member name="F:ReactApi.Helpers.Constants.CreatedDate">
             <summary>
             Added Date Column
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.Constants.ModifiedBy">
+        <member name="F:ReactApi.Helpers.Constants.ModifiedBy">
             <summary>
             The modified by column
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.Constants.ModifiedDate">
+        <member name="F:ReactApi.Helpers.Constants.ModifiedDate">
             <summary>
             The modified date column
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.Constants.FilterCollaboratorCount">
+        <member name="F:ReactApi.Helpers.Constants.FilterCollaboratorCount">
             <summary>
             limited collaborator to be shown
             </summary>
         </member>
-        <member name="T:reactapp.Helpers.ControlTypes">
+        <member name="T:ReactApi.Helpers.ControlTypes">
             <summary>
             Control Types
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.ControlTypes.Title">
+        <member name="F:ReactApi.Helpers.ControlTypes.Title">
             <summary>
             Title Type
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.ControlTypes.SubTitle">
+        <member name="F:ReactApi.Helpers.ControlTypes.SubTitle">
             <summary>
             SubTitle Type
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.ControlTypes.Image">
+        <member name="F:ReactApi.Helpers.ControlTypes.Image">
             <summary>
             Image Type
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.ControlTypes.TimeLine">
+        <member name="F:ReactApi.Helpers.ControlTypes.TimeLine">
             <summary>
             TimeLine Type
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.ControlTypes.Description">
+        <member name="F:ReactApi.Helpers.ControlTypes.Description">
             <summary>
             Description Type
             </summary>
         </member>
-        <member name="T:reactapp.Helpers.EmailTemplatePath">
+        <member name="T:ReactApi.Helpers.EmailTemplatePath">
             <summary>
             Email template path
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.EmailTemplatePath.Proposal">
+        <member name="F:ReactApi.Helpers.EmailTemplatePath.Proposal">
             <summary>
             Proposal mail template path
             </summary>
         </member>
-        <member name="T:reactapp.Helpers.FileActionMessages">
+        <member name="T:ReactApi.Helpers.FileActionMessages">
             <summary>
             Messages reslated to file action
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.FileActionMessages.CoverPhotoKey">
+        <member name="F:ReactApi.Helpers.FileActionMessages.CoverPhotoKey">
             <summary>
             FileCoverPhoto key
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.FileActionMessages.NoFileMatch">
+        <member name="F:ReactApi.Helpers.FileActionMessages.NoFileMatch">
             <summary>
             No file matched during file upload
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.FileActionMessages.CategoryNotFound">
+        <member name="F:ReactApi.Helpers.FileActionMessages.CategoryNotFound">
             <summary>
             No category found during file upload
             </summary>
         </member>
-        <member name="T:reactapp.Helpers.EntityMapperExtensions">
+        <member name="T:ReactApi.Helpers.EntityMapperExtensions">
             <summary>
             Extension Methods for Entity Mapper.
             </summary>
         </member>
-        <member name="M:reactapp.Helpers.EntityMapperExtensions.MapFromModel``2(System.Object,System.Collections.Generic.List{``0},System.String)">
+        <member name="M:ReactApi.Helpers.EntityMapperExtensions.MapFromModel``2(System.Object,System.Collections.Generic.List{``0},System.String)">
             <summary>
             Map list of records to view model
             </summary>
@@ -339,7 +339,7 @@
             <param name="ignoreProperties"></param>
             <returns></returns>
         </member>
-        <member name="M:reactapp.Helpers.EntityMapperExtensions.MapFromModel``1(System.Object,``0,System.String)">
+        <member name="M:ReactApi.Helpers.EntityMapperExtensions.MapFromModel``1(System.Object,``0,System.String)">
             <summary>
             Map single item from model
             </summary>
@@ -349,7 +349,7 @@
             <param name="ignoreProperties"></param>
             <returns></returns>
         </member>
-        <member name="M:reactapp.Helpers.EntityMapperExtensions.MapFromViewModel``1(System.Object,``0,System.Security.Claims.ClaimsIdentity,System.String)">
+        <member name="M:ReactApi.Helpers.EntityMapperExtensions.MapFromViewModel``1(System.Object,``0,System.Security.Claims.ClaimsIdentity,System.String)">
             <summary>
             Map from view model
             </summary>
@@ -360,12 +360,12 @@
             <param name="ignoreProperties"></param>
             <returns></returns>
         </member>
-        <member name="T:reactapp.Helpers.AvoidNullProps">
+        <member name="T:ReactApi.Helpers.AvoidNullProps">
             <summary>
             Avoid null properties
             </summary>
         </member>
-        <member name="M:reactapp.Helpers.AvoidNullProps.SetValue(System.Object,System.Object,System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)">
+        <member name="M:ReactApi.Helpers.AvoidNullProps.SetValue(System.Object,System.Object,System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)">
             <summary>
             Implicit method to set value
             </summary>
@@ -374,166 +374,166 @@
             <param name="sp"></param>
             <param name="tp"></param>
         </member>
-        <member name="T:reactapp.Helpers.IgnoreProperty">
+        <member name="T:ReactApi.Helpers.IgnoreProperty">
             <summary>
             Ignore properties
             </summary>
         </member>
-        <member name="F:reactapp.Helpers.IgnoreProperty._ignoreProperties">
+        <member name="F:ReactApi.Helpers.IgnoreProperty._ignoreProperties">
             <summary>
             readonly local variable
             </summary>
         </member>
-        <member name="M:reactapp.Helpers.IgnoreProperty.#ctor(System.String)">
+        <member name="M:ReactApi.Helpers.IgnoreProperty.#ctor(System.String)">
             <summary>
             Properties ignore
             </summary>
             <param name="ignoreProperties"></param>
         </member>
-        <member name="T:reactapp.Helpers.ExceptionMiddlewareExtensions">
+        <member name="T:ReactApi.Helpers.ExceptionMiddlewareExtensions">
             <summary>
             Handling Errors Globally with the Built-In Middleware
             </summary>
         </member>
-        <member name="M:reactapp.Helpers.ExceptionMiddlewareExtensions.ConfigureExceptionHandler(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Logging.ILogger{reactapp.Startup})">
+        <member name="M:ReactApi.Helpers.ExceptionMiddlewareExtensions.ConfigureExceptionHandler(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Logging.ILogger{ReactApi.Startup})">
             <summary>
             configire global error handling 
             </summary>
             <param name="app"></param>
             <param name="logger"></param>
         </member>
-        <member name="T:reactapp.Helpers.IResult">
+        <member name="T:ReactApi.Helpers.IResult">
             <summary>
             IResult data return type
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.IResult.Operation">
+        <member name="P:ReactApi.Helpers.IResult.Operation">
             <summary>
             operation type property
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.IResult.Status">
+        <member name="P:ReactApi.Helpers.IResult.Status">
             <summary>
             operation status
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.IResult.Message">
+        <member name="P:ReactApi.Helpers.IResult.Message">
             <summary>
             Oparation message if any
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.IResult.Body">
+        <member name="P:ReactApi.Helpers.IResult.Body">
             <summary>
             operation body
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.IResult.StatusCode">
+        <member name="P:ReactApi.Helpers.IResult.StatusCode">
             <summary>
             Http status code
             </summary>
         </member>
-        <member name="T:reactapp.Helpers.Result">
+        <member name="T:ReactApi.Helpers.Result">
             <summary>
             Result 
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.Result.Operation">
+        <member name="P:ReactApi.Helpers.Result.Operation">
             <summary>
             operation type property
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.Result.Status">
+        <member name="P:ReactApi.Helpers.Result.Status">
             <summary>
             operation status
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.Result.Message">
+        <member name="P:ReactApi.Helpers.Result.Message">
             <summary>
             Oparation message if any
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.Result.Body">
+        <member name="P:ReactApi.Helpers.Result.Body">
             <summary>
             operation body
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.Result.StatusCode">
+        <member name="P:ReactApi.Helpers.Result.StatusCode">
             <summary>
             Http status code
             </summary>
         </member>
-        <member name="M:reactapp.Helpers.Result.ToString">
+        <member name="M:ReactApi.Helpers.Result.ToString">
             <summary>
             return string 
             </summary>
             <returns></returns>
         </member>
-        <member name="T:reactapp.Helpers.WebHostExtension">
+        <member name="T:ReactApi.Helpers.WebHostExtension">
             <summary>
             web host extension to run migration and seed data 
             </summary>
         </member>
-        <member name="M:reactapp.Helpers.WebHostExtension.MigrateDatabase(Microsoft.AspNetCore.Hosting.IWebHost)">
+        <member name="M:ReactApi.Helpers.WebHostExtension.MigrateDatabase(Microsoft.AspNetCore.Hosting.IWebHost)">
             <summary>
             run migrations
             </summary>
             <param name="webHost"></param>
             <returns></returns>
         </member>
-        <member name="T:reactapp.Helpers.Security.AzureAdExtensions">
+        <member name="T:ReactApi.Helpers.Security.AzureAdExtensions">
             <summary>
             Azure Ad extension
             </summary>
         </member>
-        <member name="M:reactapp.Helpers.Security.AzureAdExtensions.AddAzureAdAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+        <member name="M:ReactApi.Helpers.Security.AzureAdExtensions.AddAzureAdAuthorization(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
             <summary>
             In development mode, we must ensure that unauthenticated users have access.
             </summary>
             <param name="services"></param>
             <param name="configuration"></param>
         </member>
-        <member name="T:reactapp.Helpers.UserClaim">
+        <member name="T:ReactApi.Helpers.UserClaim">
             <summary>
             Logged user claim
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.UserClaim.Name">
+        <member name="P:ReactApi.Helpers.UserClaim.Name">
             <summary>
             Logged user name
             </summary>
         </member>
-        <member name="P:reactapp.Helpers.UserClaim.Email">
+        <member name="P:ReactApi.Helpers.UserClaim.Email">
             <summary>
             Logged user email
             </summary>
         </member>
-        <member name="T:reactapp.Manager.Contract.IGroceryService">
+        <member name="T:ReactApi.Manager.Contract.IGroceryService">
             <summary>
             interface for Tag 
             </summary>
         </member>
-        <member name="M:reactapp.Manager.Contract.IGroceryService.GetGroceryList">
+        <member name="M:ReactApi.Manager.Contract.IGroceryService.GetGroceryList">
             <summary>
             To get the Grocery List
             </summary>
             <returns></returns>
         </member>
-        <member name="T:reactapp.Manager.Service.GroceryService">
+        <member name="T:ReactApi.Manager.Service.GroceryService">
             <summary>
             Tag service
             </summary>
         </member>
-        <member name="F:reactapp.Manager.Service.GroceryService._logger">
+        <member name="F:ReactApi.Manager.Service.GroceryService._logger">
             <summary>
             logger for Tag
             </summary>
         </member>
-        <member name="F:reactapp.Manager.Service.GroceryService._principal">
+        <member name="F:ReactApi.Manager.Service.GroceryService._principal">
             <summary>
             Claim Identity
             </summary>
         </member>
-        <member name="M:reactapp.Manager.Service.GroceryService.#ctor(Microsoft.Extensions.Logging.ILogger{reactapp.Manager.Service.GroceryService},System.Security.Principal.IPrincipal,reactapp.Repository.Contracts.IGroceryRepository)">
+        <member name="M:ReactApi.Manager.Service.GroceryService.#ctor(Microsoft.Extensions.Logging.ILogger{ReactApi.Manager.Service.GroceryService},System.Security.Principal.IPrincipal,ReactApi.Repository.Contracts.IGroceryRepository)">
             <summary>
             
             </summary>
@@ -541,109 +541,109 @@
             <param name="principal"></param>
             <param name="iGroceryRepository"></param>
         </member>
-        <member name="M:reactapp.Manager.Service.GroceryService.GetGroceryList">
+        <member name="M:ReactApi.Manager.Service.GroceryService.GetGroceryList">
             <summary>
             To get Tag list
             </summary>
             <returns></returns>
         </member>
-        <member name="T:reactapp.Models.BaseEntity">
+        <member name="T:ReactApi.Models.BaseEntity">
             <summary>
             Base entity for audit columns
             </summary>
         </member>
-        <member name="P:reactapp.Models.BaseEntity.CreatedBy">
+        <member name="P:ReactApi.Models.BaseEntity.CreatedBy">
             <summary>
             Creator, Owner
             </summary>
         </member>
-        <member name="P:reactapp.Models.BaseEntity.CreatedDate">
+        <member name="P:ReactApi.Models.BaseEntity.CreatedDate">
             <summary>
             Record creation date
             </summary>
         </member>
-        <member name="P:reactapp.Models.BaseEntity.ModifiedBy">
+        <member name="P:ReactApi.Models.BaseEntity.ModifiedBy">
             <summary>
             Record modified by
             </summary>
         </member>
-        <member name="P:reactapp.Models.BaseEntity.ModifiedDate">
+        <member name="P:ReactApi.Models.BaseEntity.ModifiedDate">
             <summary>
             Record modification date
             </summary>
         </member>
-        <member name="P:reactapp.Models.BaseEntity.Status">
+        <member name="P:ReactApi.Models.BaseEntity.Status">
             <summary>
             Record status
             </summary>
         </member>
-        <member name="T:reactapp.Models.Grocery">
+        <member name="T:ReactApi.Models.Grocery">
             <summary>
             Tag an item to make it searchable
             </summary>
         </member>
-        <member name="P:reactapp.Models.Grocery.Id">
+        <member name="P:ReactApi.Models.Grocery.Id">
             <summary>
             primary key
             </summary>
         </member>
-        <member name="P:reactapp.Models.Grocery.Name">
+        <member name="P:ReactApi.Models.Grocery.Name">
             <summary>
             Tage name
             </summary>
         </member>
-        <member name="P:reactapp.Models.Grocery.Cost">
+        <member name="P:ReactApi.Models.Grocery.Cost">
             <summary>
             Cost
             </summary>
         </member>
-        <member name="P:reactapp.Models.Grocery.Caloreis">
+        <member name="P:ReactApi.Models.Grocery.Caloreis">
             <summary>
             Caloreis
             </summary>
         </member>
-        <member name="P:reactapp.Models.Grocery.Weight">
+        <member name="P:ReactApi.Models.Grocery.Weight">
             <summary>
             Weight
             </summary>
         </member>
-        <member name="T:reactapp.Program">
+        <member name="T:ReactApi.Program">
             <summary>
             Program class
             </summary>
         </member>
-        <member name="M:reactapp.Program.Main(System.String[])">
+        <member name="M:ReactApi.Program.Main(System.String[])">
             <summary>
             main method
             </summary>
             <param name="args"></param>
         </member>
-        <member name="M:reactapp.Program.CreateWebHostBuilder(System.String[])">
+        <member name="M:ReactApi.Program.CreateWebHostBuilder(System.String[])">
             <summary>
             web host builder
             </summary>
             <param name="args"></param>
             <returns></returns>
         </member>
-        <member name="M:reactapp.Program.ConfigureAppConfig(System.String[],Microsoft.Extensions.Configuration.IConfigurationBuilder)">
+        <member name="M:ReactApi.Program.ConfigureAppConfig(System.String[],Microsoft.Extensions.Configuration.IConfigurationBuilder)">
             <summary>
             Configure app config
             </summary>
             <param name="args"></param>
             <param name="config"></param>
         </member>
-        <member name="T:reactapp.Repository.Contracts.IGroceryRepository">
+        <member name="T:ReactApi.Repository.Contracts.IGroceryRepository">
             <summary>
             Tag repository
             </summary>
         </member>
-        <member name="M:reactapp.Repository.Contracts.IGroceryRepository.GetGroceryList">
+        <member name="M:ReactApi.Repository.Contracts.IGroceryRepository.GetGroceryList">
             <summary>
             To get the Grocery list
             </summary>
             <returns></returns>
         </member>
-        <member name="T:reactapp.Repository.ReactAppContext">
+        <member name="T:ReactApi.Repository.ReactAppContext">
             <summary>
             Offer portal context
             </summary>
@@ -651,118 +651,118 @@
             Offer portal db set
             </summary>
         </member>
-        <member name="M:reactapp.Repository.ReactAppContext.#ctor">
+        <member name="M:ReactApi.Repository.ReactAppContext.#ctor">
             <summary>
             ctor default
             </summary>
         </member>
-        <member name="M:reactapp.Repository.ReactAppContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{reactapp.Repository.ReactAppContext})">
+        <member name="M:ReactApi.Repository.ReactAppContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{ReactApi.Repository.ReactAppContext})">
             <summary>
             ctor 
             </summary>
             <param name="options"></param>
         </member>
-        <member name="M:reactapp.Repository.ReactAppContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <member name="M:ReactApi.Repository.ReactAppContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <summary>
             On model creating event
             </summary>
             <param name="modelBuilder"></param>
         </member>
-        <member name="M:reactapp.Repository.ReactAppContext.SeedData">
+        <member name="M:ReactApi.Repository.ReactAppContext.SeedData">
             <summary>
             Get set data on db creation
             </summary>
         </member>
-        <member name="P:reactapp.Repository.ReactAppContext.Grocery">
+        <member name="P:ReactApi.Repository.ReactAppContext.Grocery">
             <summary>
             Grocery
             </summary>
         </member>
-        <member name="M:reactapp.Repository.ModelBuilderExtensions.Seed(reactapp.Repository.ReactAppContext)">
+        <member name="M:ReactApi.Repository.ModelBuilderExtensions.Seed(ReactApi.Repository.ReactAppContext)">
             <summary>
             Get set data on db creation
             </summary>
             <param name="context"></param>
         </member>
-        <member name="T:reactapp.Repository.ReactAppContextFactory">
+        <member name="T:ReactApi.Repository.ReactAppContextFactory">
             <summary>
             To Enable migration; IDesignTimeDbContextFactory need to be implemented
             </summary>
         </member>
-        <member name="M:reactapp.Repository.ReactAppContextFactory.#ctor">
+        <member name="M:ReactApi.Repository.ReactAppContextFactory.#ctor">
             <summary>
             CTOR of context factory
             </summary>
         </member>
-        <member name="M:reactapp.Repository.ReactAppContextFactory.CreateDbContext(System.String[])">
+        <member name="M:ReactApi.Repository.ReactAppContextFactory.CreateDbContext(System.String[])">
             <summary>
             Create db context
             </summary>
             <param name="args"></param>
             <returns></returns>
         </member>
-        <member name="T:reactapp.Repository.SeedData.GroceryConfiguration">
+        <member name="T:ReactApi.Repository.SeedData.GroceryConfiguration">
             <summary>
             GroceryConfiguration data
             </summary>
         </member>
-        <member name="M:reactapp.Repository.SeedData.GroceryConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{reactapp.Models.Grocery})">
+        <member name="M:ReactApi.Repository.SeedData.GroceryConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{ReactApi.Models.Grocery})">
             <summary>
             configure master data
             </summary>
         </member>
-        <member name="T:reactapp.Repository.Services.GroceryRepository">
+        <member name="T:ReactApi.Repository.Services.GroceryRepository">
             <summary>   
             Tag repository
             </summary>
         </member>
-        <member name="M:reactapp.Repository.Services.GroceryRepository.#ctor(reactapp.Repository.ReactAppContext)">
+        <member name="M:ReactApi.Repository.Services.GroceryRepository.#ctor(ReactApi.Repository.ReactAppContext)">
             <summary>
             Ctor
             context injection\creation
             </summary>
             <param name="context"></param>
         </member>
-        <member name="M:reactapp.Repository.Services.GroceryRepository.GetGroceryList">
+        <member name="M:ReactApi.Repository.Services.GroceryRepository.GetGroceryList">
             <summary>
             To get the tags list
             </summary>
             <returns></returns>
         </member>
-        <member name="T:reactapp.Startup">
+        <member name="T:ReactApi.Startup">
             <summary>
             class start up
             </summary>
         </member>
-        <member name="M:reactapp.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+        <member name="M:ReactApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
             <summary>
             Start up
             </summary>
             <param name="configuration"></param>
             <param name="environment"></param>
         </member>
-        <member name="P:reactapp.Startup.Configuration">
+        <member name="P:ReactApi.Startup.Configuration">
             <summary>
             Configuration
             </summary>
         </member>
-        <member name="P:reactapp.Startup.Environment">
+        <member name="P:ReactApi.Startup.Environment">
             <summary>
             Environment
             </summary>
         </member>
-        <member name="P:reactapp.Startup.SwaggerInfo">
+        <member name="P:ReactApi.Startup.SwaggerInfo">
             <summary>
             swagger info
             </summary>
         </member>
-        <member name="M:reactapp.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+        <member name="M:ReactApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
             This method gets called by the runtime. Use this method to add services to the container.
             </summary>
             <param name="services"></param>
         </member>
-        <member name="M:reactapp.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILogger{reactapp.Startup})">
+        <member name="M:ReactApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILogger{ReactApi.Startup})">
             <summary>
             This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
             </summary>
@@ -770,38 +770,38 @@
             <param name="env"></param>
             <param name="logger"></param>
         </member>
-        <member name="M:reactapp.Startup.ConfigureSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+        <member name="M:ReactApi.Startup.ConfigureSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
             swagger configuration
             </summary>
             <param name="services"></param>
         </member>
-        <member name="T:reactapp.ViewModels.GroceryViewModel">
+        <member name="T:ReactApi.ViewModels.GroceryViewModel">
             <summary>
             Tag veiw model an item to make it searchable
             </summary>
         </member>
-        <member name="P:reactapp.ViewModels.GroceryViewModel.Id">
+        <member name="P:ReactApi.ViewModels.GroceryViewModel.Id">
             <summary>
             primary key
             </summary>
         </member>
-        <member name="P:reactapp.ViewModels.GroceryViewModel.Name">
+        <member name="P:ReactApi.ViewModels.GroceryViewModel.Name">
             <summary>
             Name
             </summary>
         </member>
-        <member name="P:reactapp.ViewModels.GroceryViewModel.Cost">
+        <member name="P:ReactApi.ViewModels.GroceryViewModel.Cost">
             <summary>
             Cost
             </summary>
         </member>
-        <member name="P:reactapp.ViewModels.GroceryViewModel.Caloreis">
+        <member name="P:ReactApi.ViewModels.GroceryViewModel.Caloreis">
             <summary>
             Caloreis
             </summary>
         </member>
-        <member name="P:reactapp.ViewModels.GroceryViewModel.Weight">
+        <member name="P:ReactApi.ViewModels.GroceryViewModel.Weight">
             <summary>
             Weight
             </summary>

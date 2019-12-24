@@ -2,7 +2,7 @@
 using System.ComponentModel;
 
 
-namespace reactapp.Enums
+namespace ReactApi.Enums
 {
     /// <summary>
     /// Use in database to set status of records
