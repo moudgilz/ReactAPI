@@ -35,6 +35,32 @@ namespace reactapp.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Grocery");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Caloreis = 144m,
+                            Cost = 89m,
+                            Name = "Grocery 1",
+                            Weight = 66m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Caloreis = 1244m,
+                            Cost = 849m,
+                            Name = "Grocery 2",
+                            Weight = 776m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Caloreis = 164m,
+                            Cost = 84m,
+                            Name = "Grocery 3",
+                            Weight = 56m
+                        });
                 });
 #pragma warning restore 612, 618
         }

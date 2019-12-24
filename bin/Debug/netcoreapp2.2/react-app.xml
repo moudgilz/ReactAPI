@@ -701,6 +701,16 @@
             <param name="args"></param>
             <returns></returns>
         </member>
+        <member name="T:reactapp.Repository.SeedData.GroceryConfiguration">
+            <summary>
+            GroceryConfiguration data
+            </summary>
+        </member>
+        <member name="M:reactapp.Repository.SeedData.GroceryConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{reactapp.Models.Grocery})">
+            <summary>
+            configure master data
+            </summary>
+        </member>
         <member name="T:reactapp.Repository.Services.GroceryRepository">
             <summary>   
             Tag repository

@@ -39,7 +39,6 @@
 
   <ItemGroup>
     <Folder Include="Content\" />
-    <Folder Include="Repository\SeedData\" />
   </ItemGroup>
 
 </Project>
