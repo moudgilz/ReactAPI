@@ -1,11 +1,11 @@
-﻿using reactapp.Helpers;
-using reactapp.ViewModels;
+﻿using ReactApi.Helpers;
+using ReactApi.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace reactapp.Manager.Contract
+namespace ReactApi.Manager.Contract
 {
     /// <summary>
     /// interface for Tag 

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using reactapp.Repository;
+using ReactApi.Repository;
 
-namespace reactapp.Helpers
+namespace ReactApi.Helpers
 {
     /// <summary>
     /// web host extension to run migration and seed data 

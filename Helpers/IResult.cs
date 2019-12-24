@@ -1,8 +1,8 @@
 ﻿using System.Net;
 using Newtonsoft.Json;
-using reactapp.Enums;
+using ReactApi.Enums;
 
-namespace reactapp.Helpers
+namespace ReactApi.Helpers
 {
     /// <summary>
     /// IResult data return type

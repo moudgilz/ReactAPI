@@ -5,13 +5,13 @@ using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using reactapp.Helpers;
-using reactapp.Manager.Contract;
-using reactapp.Models;
-using reactapp.Repository.Contracts;
-using reactapp.ViewModels;
+using ReactApi.Helpers;
+using ReactApi.Manager.Contract;
+using ReactApi.Models;
+using ReactApi.Repository.Contracts;
+using ReactApi.ViewModels;
 
-namespace reactapp.Manager.Service
+namespace ReactApi.Manager.Service
 {
     /// <summary>
     /// Tag service

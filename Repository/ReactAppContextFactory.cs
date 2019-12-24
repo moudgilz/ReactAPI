@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using Serilog;
 
-namespace reactapp.Repository
+namespace ReactApi.Repository
 {
     /// <summary>
     /// To Enable migration; IDesignTimeDbContextFactory need to be implemented

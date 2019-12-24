@@ -2,14 +2,14 @@
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using reactapp.Enums;
+using ReactApi.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace reactapp.Helpers
+namespace ReactApi.Helpers
 {
     /// <summary>
     /// Handling Errors Globally with the Built-In Middleware

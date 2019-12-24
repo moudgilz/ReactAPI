@@ -1,4 +1,4 @@
-﻿namespace reactapp.Helpers
+﻿namespace ReactApi.Helpers
 {
     /// <summary>
     /// Common messages

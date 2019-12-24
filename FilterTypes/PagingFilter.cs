@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace reactapp.FilterTypes
+namespace ReactApi.FilterTypes
 {
     /// <summary>
     /// BaseFilter setting

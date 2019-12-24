@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Omu.ValueInjecter;
 using Omu.ValueInjecter.Injections;
 
-namespace reactapp.Helpers
+namespace ReactApi.Helpers
 {
     /// <summary>
     /// Extension Methods for Entity Mapper.

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
+using ReactApi.Repository.SeedData;
 using Serilog;
 
-namespace reactapp.Repository
+namespace ReactApi.Repository
 {
     interface test
     {
@@ -47,7 +48,8 @@ namespace reactapp.Repository
         /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            Log.Logger.Debug("OnModelCreating at OfferPortalContext");        
+            Log.Logger.Debug("OnModelCreating at ReactAppContext");
+            modelBuilder.ApplyConfiguration(new GroceryConfiguration());
 
         }
 

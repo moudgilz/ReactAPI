@@ -7,12 +7,12 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using reactapp.Helpers;
+using ReactApi.Helpers;
 using Serilog;
 using Serilog.Core;
 using Serilog.Events;
 
-namespace reactapp
+namespace ReactApi
 {
     /// <summary>
     /// Program class

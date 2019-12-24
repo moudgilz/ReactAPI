@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using reactapp.Models;
+using ReactApi.Models;
 
-namespace reactapp.Repository
+namespace ReactApi.Repository
 {
     /// <summary>
     /// Offer portal db set

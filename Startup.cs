@@ -14,11 +14,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using reactapp.Helpers.Security;
+using ReactApi.Helpers.Security;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerUI;
-using reactapp.Helpers;
-namespace reactapp
+using ReactApi.Helpers;
+namespace ReactApi
 {
     /// <summary>
     /// class start up
